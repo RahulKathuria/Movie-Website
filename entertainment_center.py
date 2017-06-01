@@ -1,12 +1,13 @@
 import fresh_tomatoes
 import media
 
+# This line creates the instance "thirteen_reasons" of the Movie class
 thirteen_reasons = media.Movie("13 Reasons Why", "Follows teenager Clay Jensen, in his quest to\
 uncover the story behind his classmate\
 and crush, Hannah, and her decision\
 to end her life.", "https://2.bp.blogspot.com/-zGJ8q3MjZ6o/WIj19lZ7HrI/AAAAAAAAQd4/QugAgRS0p5EVq-BVZtXh8us6lyu_jvG7gCLcB/s1600/13ReasonsWhy%2B%255Bwww.imagesplitter.net%255D.jpeg",  # noqa
                          "https://www.youtube.com/watch?v=JebwYGn5Z3E")
-
+# This line creates the instance "flash" of the Movie class
 flash = media.Movie("The Flash",
                     "The Flash (Barry Allen) is a fictional superhero\
 appearing in American comic books published by DC\
@@ -16,7 +17,7 @@ comic books as the character Jay Garrick.\
 His power consists mainly of superhuman speed.",
                     "http://img09.deviantart.net/4653/i/2015/161/2/5/the_flash___fan_made_poster_by_eduardohurtado-d8w70f6.png",  # noqa
                     "https://www.youtube.com/watch?v=Yj0l7iGKh8g")
-
+# This line creates the instance "iron man" of the Movie class
 iron_man = media.Movie("Iron Man", "A billionaire industrialist and genius inventor, Tony Stark \
 (Robert Downey Jr.),is conducting weapons tests overseas,\
 but terrorists kidnap him to force him to build a \
@@ -24,7 +25,7 @@ devastating weapon. Instead, he builds an armored\ suit and upends his \
 captors. Returning to America, Stark refines the suit and \
 uses it to combat crime and terrorism.", "http://i.ebayimg.com/00/s/NTAwWDMzOQ==/z/k1IAAOxycD9TVkwT/$_35.JPG?set_id=2",  # noqa
             "https://www.youtube.com/watch?v=8hYlB38asDY")
-
+# This line creates the instance "pirates" of the Movie class
 pirates = media.Movie("Pirates of the caribbean",
                       "Capt. Jack Sparrow (Johnny Depp) arrives at Port \
 Royal in the Caribbean without a ship or crew. His timing is inopportune, \
@@ -37,7 +38,7 @@ the pirates into the undead. A gallant blacksmith\
 Sparrow in pursuit of the pirates.",
                       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQySvhDSAcIekqATXtaZfWgm_ZDzXYr9gyl3PCATN-3gyLDWal0",  # noqa
                       "https://www.youtube.com/watch?v=lsJ58L3u8qw")
-
+# This line creates the instance "logan" of the Movie class
 logan = media.Movie("Logan",
                     "In the near future, a weary Logan (Hugh Jackman) cares \
 for an ailing Professor X (Patrick Stewart) at a remote outpost on the Mexican\
@@ -47,6 +48,7 @@ now protect the girl and battle the dark forces\
 that want to capture her.",
                     "http://t1.gstatic.com/images?q=tbn:ANd9GcRPoMqL1vglrh7OF_69pT8gYMYnYaq1r7WfPMcD587V9uOR_hW2",  # noqa
                     "https://www.youtube.com/watch?v=Div0iP65aZo")
+# This line creates the instance "justice_league" of the Movie class
 justice_league = media.Movie("Justice League",
                              "Fueled by his restored faith in humanity and\
 inspired by Superman's (Henry Cavill) selfless act, \
@@ -60,5 +62,7 @@ to save the planet from an assault\
 of catastrophic proportions.",
                              "http://t2.gstatic.com/images?q=tbn:ANd9GcQl4jDmsaajCfFvMRLWm7-3-lsXaJ4jc5BsJcpNZi1FypJUFuwE",  # noqa
                              "https://www.youtube.com/watch?v=3cxixDgHUYw")
+# This creates an array of movies containing all the instances of the class.
 movies = [thirteen_reasons, flash, iron_man, pirates, logan, justice_league]
+# The array of movies is passed as an argument
 fresh_tomatoes.open_movies_page(movies)
