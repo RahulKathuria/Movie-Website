@@ -11,8 +11,6 @@ class Movie():
     	movie_story_line:represents the movie story line.
     	poster_image:represents the poster image.
     	trailer_youtube:represents the youtube trailer of the particluar movie.
-    	Returns :
-    	It returns the movie title, movie storyline, poster image and the youtube trailer of the movie.
  		"""
         self.title = movie_title
         self.storyline = movie_storyline
@@ -23,6 +21,5 @@ class Movie():
     	This function is used to play the trailer of the movie.
  	 	Args:
     	self:It points on the particluar trailer which is to be played.
-    	Returns: It returns the youtube trailer of the particluar movie.
     	"""
     	webbrowser.open(self.trailer_youtube_url)
